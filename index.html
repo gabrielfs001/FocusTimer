@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FocusTimer2.0</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <script type="module" src="./Scripts/main.js" defer></script>
+</head>
+<body>
+    <div class="app">
+        <div class="timer">
+            <div class="time flex">
+                <span id="timerMinutes">00</span>
+                <span>:</span>
+                <span id="timerSeconds">00</span>
+            </div>
+            <div id="controls">
+                <button
+                data-action="startRunning"
+                class="ph ph-play-circle"></button>
+                <button
+                data-action="stopRunning"
+                class="ph ph-stop-circle"></button>
+                <button
+                data-action="addTime"
+                class="ph ph-plus-circle"></button>
+                <button
+                data-action="removeTime"
+                class="ph ph-minus-circle"></button>
+            </div>
+        </div>
+        <div id="sounds">
+            <img id="activeTree"
+            data-action="toggleTreeMode"
+            class="disabled card"
+            src="./Assets/activeTree.svg"
+            alt="card com ícone de árvore">
+            <span class="sr-only">Desativar modo Árvore</span>
+            </img>
+            <img id="inactiveTree"
+            data-action="toggleTreeMode"
+            class="card"
+            src="./Assets/disabledTree.svg"
+            alt="card com ícone de árvore com cores de inativo">
+            <span class="sr-only">Ativar modo Árvore</span>
+            </img>
+            <img id="activeRain"
+            data-action="toggleRainMode"
+            class="disabled card"
+            src="./Assets/activeRain.svg"
+            alt="card com ícone de chuva">
+            <span class="sr-only">Desativar modo Chuva</span>
+            </img>
+            <img id="inactiveRain"
+            data-action="toggleRainMode"
+            class="card"
+            src="./Assets/disabledRain.svg"
+            alt="card com ícone de chuva com cores de inativo">
+            <span class="sr-only">Ativar modo Chuva</span>
+            </img>
+            <img id="activeStore"
+            data-action="toggleStoreMode"
+            class="disabled card"
+            src="./Assets/activeStore.svg"
+            alt="card com ícone de loja">
+            <span class="sr-only">Desativar modo Café</span>
+            </img>
+            <img id="inactiveStore"
+            data-action="toggleStoreMode"
+            class="card"
+            src="./Assets/disabledStore.svg"
+            alt="card com ícone de loja com cores de inativo">
+            <span class="sr-only">Ativar modo Café</span>
+            </img>
+            <img id="activeFire"
+            data-action="toggleFireMode"
+            class="disabled card"
+            src="./Assets/activeFire.svg"
+            alt="card com ícone de chama">
+            <span class="sr-only">Desativar modo Fogo</span>
+            </img>
+            <img id="inactiveFire"
+            data-action="toggleFireMode"
+            class="card"
+            src="./Assets/disabledFire.svg"
+            alt="card com ícone de chama com cores de inativo">
+            <span class="sr-only">Ativar modo café</span>
+            </img>
+        </div>
+    </div>
+</body>
+</html>

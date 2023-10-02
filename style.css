@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+
+}
+
+button {
+    background-color: transparent;
+    border: 0;
+    color: #323238;
+    cursor: pointer;
+
+    font-size: 6.4rem;
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+.app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20rem;
+    margin: 20rem;
+}
+
+.disabled {
+    display: none;
+}
+
+.timer {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.time {
+    color: #323238;;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 12rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+#controls {
+    display: flex;
+    gap: 1.8rem;
+}
+
+#sounds {
+    display: flex;
+    flex-wrap: wrap;
+    width: 34rem;
+    gap: 3.2rem 3.2rem;
+}
+
+.card {
+    max-width: 14rem;
+    cursor: pointer;
+}
+
+/* exemplo de classe css utilitária, que serve para um fim e você pode utilizar livremente. */
+.flex {
+    display: flex;
+}
+
+/* classe utilitária para acessibilidade*/
+
+.sr-only {
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    overflow: hidden;
+
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    appearance: none;
+}
+
+/* sounds */
