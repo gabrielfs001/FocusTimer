@@ -42,10 +42,6 @@ Sinta-se à vontade para contribuir com melhorias para este aplicativo. Basta se
 4. Faça push para a branch (`git push origin feature/sua-feature`).
 5. Abra um Pull Request.
 
-## Licença
-
-Este projeto está licenciado sob a Licença MIT - consulte o arquivo [LICENSE](LICENSE) para obter mais detalhes.
-
 ---
 
 Aproveite seu tempo de estudo e seja produtivo com o FocusTimer!
